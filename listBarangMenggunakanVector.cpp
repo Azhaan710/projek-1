@@ -126,7 +126,7 @@ void rapihkanList(vector<std::string> &belanjaan)
 }
 void cetakListSorting(vector<std::string> &belanjaan)
 {
-    for(std::string &i : belanjaan)
+    for(std::string i : belanjaan)
     {
         cout<<i<<std::endl;
     }
